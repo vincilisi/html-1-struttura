@@ -188,3 +188,43 @@ i {
     font-family: 'Montserrat', sans-serif; /* Corretto il nome del font */
     font-weight: 300; /* Spessore corretto per un testo sottile */
 }
+
+.freccia {
+    width: 50px; /* Dimensione dell'immagine della freccia */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    padding-left: 100%;
+    padding-top: 20px; /* Margine superiore per il logo */
+@media screen and (max-width: 480px) {
+    /* Ulteriore riduzione delle dimensioni per schermi più piccoli */
+    .logo {
+        width: 60px; /* Adatta ulteriormente la larghezza del logo */
+        height: auto;
+    }
+
+    .nav-links a {
+        font-size: 12px; /* Riduce ulteriormente la dimensione del testo nei link */
+    }
+
+    .sconto h3 {
+        font-size: 16px; /* Riduce la dimensione del testo nello sconto */
+    }
+    
+    
+        .card {
+            width: 90%; /* Adatta la larghezza della card per schermi più piccoli */
+            margin: 0 auto; /* Centra la card */
+        }
+    
+        .card h3 {
+            font-size: 20px; /* Riduce la dimensione del titolo della card */
+        }
+    
+        .card p {
+            font-size: 16px; /* Riduce la dimensione del testo della card */
+        }
+    
+        .btn-card {
+            font-size: 14px; /* Riduce la dimensione del testo del bottone della card */
+        }
+}
+}
