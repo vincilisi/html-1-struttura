@@ -1,0 +1,190 @@
+.navbar{
+    width: 100vw; /* Occupa tutta la larghezza della viewport */
+    height: 60px; /* Altezza della navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+    
+}
+.logo{
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px; /* Margine sinistro per il logo */
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.navbar ul li{
+    margin: 0 15px;
+    padding-top: 20px;
+    
+}
+
+.btn{
+    background-color: yellow; /* Colore di sfondo del bottone */
+    color: black; /* Colore del testo del bottone */
+    padding: 5px 40px; /* Padding del bottone */
+    border: none; /* Rimuove il bordo */
+    border-radius: 15px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore quando si passa sopra il bottone */
+    margin-top: 15px;
+}
+
+a{
+    font-family: -Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-size: 16px; /* Dimensione del font */
+    color: rgba(51, 51, 51,0.7); /* Colore del testo */
+    list-style: none; /* Rimuove i punti elenco */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+a:hover{
+    color: rgba(51, 51, 51,1); /* Colore del testo al passaggio del mouse */
+}
+
+.sconto {
+    width: 100vw; /* Occupa tutta la larghezza della finestra */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* Distanza tra elementi */
+    padding: 10px;
+    background-color: yellow; /* Colore di sfondo */
+    color: black; /* Colore del testo */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sconto img {
+    width: 25px; /* Dimensione immagini */
+    height: auto;
+}
+
+.sconto h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+h1 {
+    font-family: Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-size: 65px; /* Dimensione del font */
+    color: #1d1d1b; /* Colore del testo */
+    box-sizing: border-box; /* Include padding e bordo nella larghezza e altezza totale */
+    font-weight: 50; /* Spessore del font */
+    height: 75px; /* Altezza del titolo */
+}
+
+.blog{
+    width: 100vw; /* Occupa tutta la larghezza della viewport */
+    height: 60px; /* Altezza della navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+}
+.blog img{
+    width: 30px;
+    height: auto;
+    margin-bottom: 100px; /* Margine inferiore per il logo */
+    color: #333;
+}
+.blog p{
+    font-family: Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-size: 16px; /* Dimensione del font */
+    color: rgba(51, 51, 51,0.7); /* Colore del testo */
+    list-style: none; /* Rimuove i punti elenco */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    margin-right: 89%;
+    margin-bottom: 8%; /* Margine inferiore per il logo */
+}
+
+h2{
+    font-family: Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-size: 40px; /* Dimensione del font */
+    font-weight: 50; /* Spessore del font */
+    color: #1d1d1b; /* Colore del testo */
+    text-align: center; /* Allinea il testo al centro */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Centra le card */
+    gap: 20px; /* Spazio tra le card */
+    padding: 20px; /* Padding del contenitore */
+}
+
+.card {
+    width: 400px; /* Imposta la larghezza della card */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: start; /* Allinea il testo a sinistra */
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 23px;
+    color: #333;
+    margin-top: 25px; /* Margine superiore per il titolo */
+    margin-bottom: 25px; /* Margine inferiore per il titolo */
+    font-family: Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-weight: 50; /* Spessore del font */
+}
+
+.card p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.5;
+    font-family: Montserrat Thin, sans-serif; /* Font Montserrat */
+    font-weight: 50; /* Spessore del font */
+}
+
+.btn-card {
+    display: flex; /* Disposizione flessibile */
+    align-items: center; /* Allinea verticalmente testo e immagine */
+    justify-content: center; /* Centra gli elementi */
+    background-color: white; /* Colore di default */
+    color: #333;
+    padding: 10px 15px; /* Padding del bottone */
+    border: none; /* Rimuove il bordo */
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    gap: 8px; /* Distanza tra il testo e l'immagine */
+}
+
+.btn-card img {
+    width: 20px; /* Dimensione controllata dell'immagine */
+    height: auto;
+}
+
+.btn-card:hover {
+    background-color: yellow;
+    color: black;
+}
+
+i {
+    font-size: 10px;
+    color: #8A8F96;
+    margin-top: 20px; /* Spazio sopra l'icona */
+    text-align: start; /* Allinea testo a sinistra */
+    font-family: 'Montserrat', sans-serif; /* Corretto il nome del font */
+    font-weight: 300; /* Spessore corretto per un testo sottile */
+}
