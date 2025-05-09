@@ -190,11 +190,13 @@ i {
 }
 
 .freccia {
+        position: fixed; /* Fissa l'elemento rispetto alla finestra */
+        bottom: 20px; /* Posizionata in basso */
+        right: 20px; /* Posizionata a destra */
+        width: 50px; /* Dimensione della freccia */
+        height: auto;
+        cursor: pointer; /* Indica che è cliccabile */
     
-    width: 50px; /* Dimensione dell'immagine della freccia */
-    height: auto; /* Mantiene le proporzioni dell'immagine */
-    padding-left: 100%;
-    padding-top: 20px; /* Margine superiore per il logo */
 @media screen and (max-width: 480px) {
     /* Ulteriore riduzione delle dimensioni per schermi più piccoli */
     .logo {
