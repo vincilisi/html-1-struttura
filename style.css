@@ -147,7 +147,7 @@ h2{
     font-weight: 50; /* Spessore del font */
 }
 
-.card p {
+.card article {
     font-size: 20px;
     color: #666;
     line-height: 1.5;
@@ -190,6 +190,7 @@ i {
 }
 
 .freccia {
+    
     width: 50px; /* Dimensione dell'immagine della freccia */
     height: auto; /* Mantiene le proporzioni dell'immagine */
     padding-left: 100%;
@@ -219,7 +220,7 @@ i {
             font-size: 20px; /* Riduce la dimensione del titolo della card */
         }
     
-        .card p {
+        .card article {
             font-size: 16px; /* Riduce la dimensione del testo della card */
         }
     
