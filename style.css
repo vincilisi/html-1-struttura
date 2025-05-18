@@ -196,6 +196,7 @@ i {
         width: 50px; /* Dimensione della freccia */
         height: auto;
         cursor: pointer; /* Indica che è cliccabile */
+}
     
 @media screen and (max-width: 480px) {
     /* Ulteriore riduzione delle dimensioni per schermi più piccoli */
@@ -229,5 +230,4 @@ i {
         .btn-card {
             font-size: 14px; /* Riduce la dimensione del testo del bottone della card */
         }
-}
 }
